@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Suite" parallel="false">
-  <test name="Test">
+  <test name="Run on FIREFOX">
     <classes>
-      <class name="com.bankguru.login.Login_01_ValidateLoginForm"/>
+      <class name="com.bankguru.account.RegisterLogin_Level_1_Step_By_Step"/>
+      <class name="com.bankguru.account.RegisterLogin_Level_2_AbstractPage_MultiBrowser"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
